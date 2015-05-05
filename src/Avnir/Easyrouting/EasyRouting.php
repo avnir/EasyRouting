@@ -19,7 +19,7 @@ class EasyRouting {
                     $methods[] = $method->name;
             }
 
-            \Route::resource($controller->name,                                    $file,['only'=>$methods]);
+            \Route::resource(str_replace('Controller', '', $file),                     $file,['only'=>$methods]);
         }
     }
 }
