@@ -1,6 +1,9 @@
 {
     "name": "avnir/easyrouting",
-    "description": "",
+    "description": "Make route handling in Laravel easier",
+    "keywords": ["laravel","routes"],
+    "homepage": "https://github.com/avnir/EasyRouting",
+    "license": "MIT",
     "authors": [
         {
             "name": "Avni Rexhepi",
