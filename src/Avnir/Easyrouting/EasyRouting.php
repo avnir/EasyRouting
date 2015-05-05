@@ -9,7 +9,7 @@ class EasyRouting {
             $file = array_pop($file_parts);
             $file = rtrim($file,'.php');
             $controller = new $file();
-            if($controller->exclude === true)
+            if(isset($controller->exclude) && $controller->exclude === true)
                 continue;
 
             $reflector = new \ReflectionClass($controller);
