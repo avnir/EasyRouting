@@ -1,0 +1,21 @@
+{
+    "name": "avnir/easyrouting",
+    "description": "",
+    "authors": [
+        {
+            "name": "Avni Rexhepi",
+            "email": "arexhepi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Avnir\\Easyrouting": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
