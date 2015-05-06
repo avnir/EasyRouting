@@ -26,6 +26,12 @@ That's it! You're all set to go.
 
 # Usage
 
-On the ```route.php``` file you need to call ```EasyRouting::run();``` this will setup REST routes for all the public methods of the Controllers
+On the ```routes.php``` file you need to call 
+
+```
+EasyRouting::run();
+```
+
+this will setup REST routes for all the public methods of the Controllers
 
 If you ever want to exclude a controller from having a route, just add ```var $exclude = true;``` to the Controller
