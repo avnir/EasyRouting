@@ -1,4 +1,4 @@
-# Fast Workflow in Laravel With Easy Routing
+# Fast Workflow in Laravel With EasyRouting
 
 <h3>Installation</h3>
 
@@ -13,7 +13,7 @@ Begin by installing this package through Composer. Edit your project's ```compos
 Next, update Composer from the Terminal:
 
 ```
-composer update --dev
+composer update
 ```
 
 Once this operation completes, the final step is to add the service provider. Open app/config/app.php, and add a new item to the providers array.
