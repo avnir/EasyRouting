@@ -1,6 +1,6 @@
-# Fast Workflow in Laravel With EasyRouting
+## Fast Workflow in Laravel With EasyRouting
 
-<h3>Installation</h3>
+### Installation
 
 Begin by installing this package through Composer. Edit your project's ```composer.json``` file to require ```avnir/EasyRouting```.
 
@@ -24,7 +24,7 @@ Once this operation completes, the final step is to add the service provider. Op
 
 That's it! You're all set to go.
 
-# Usage
+### Usage
 
 On the ```routes.php``` file you need to call 
 
@@ -32,6 +32,18 @@ On the ```routes.php``` file you need to call
 EasyRouting::run();
 ```
 
-this will setup REST routes for all the public methods of the Controllers
+this will setup REST routes for all the public methods of the Controllers.
 
-If you ever want to exclude a controller from having a route, just add ```var $exclude = true;``` to the Controller
+An easy way to see your routes is 
+
+```
+php artisan routes
+```
+
+If you ever want to exclude a controller from having a route, just add
+
+```
+var $exclude = true;
+```
+
+to the Controller
