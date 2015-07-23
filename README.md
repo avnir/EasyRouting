@@ -3,7 +3,7 @@
 **Major Versions:**
 
 * **2.x** (YOU ARE HERE) - For `laravel/framework:~5.*` and `avnir/easyrouting:~2`
-* **1.x** ([1.0 branch](https://github.com/avnir/easyrouting-laravel/tree/1.0)) - For `laravel/framework:4.*` and `avnir/easyrouting:~1`
+* **1.x** ([1.0 branch](https://github.com/avnir/EasyRouting/tree/1.0)) - For `laravel/framework:4.*` and `avnir/easyrouting:~1`
 
 ### Installation
 
