@@ -2,7 +2,7 @@
 
 namespace Avnir\Easyrouting;
 
-class EasyRouting {
+class Easyrouting {
 
     public static function run()
     {
